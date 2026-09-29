@@ -1,0 +1,6 @@
+{
+  "name": "ONESETU - Local Needs, Services & Trust Platform",
+  "description": "One Platform. Every Local Need. A unified local service, resource, marketplace, transport, and blockchain trust network.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
