@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { store } from './services/store';
 import { ScreenId, EquipmentItem } from './types';
 import { ScreenNavigatorBar } from './components/layout/ScreenNavigatorBar';
@@ -103,6 +104,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-900 text-slate-900 flex flex-col font-sans">
+      <Analytics />
       {/* Top Navigator & Screen Switcher Bar */}
       <ScreenNavigatorBar
         currentScreen={screen}
